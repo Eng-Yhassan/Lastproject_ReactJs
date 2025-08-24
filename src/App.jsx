@@ -1,0 +1,22 @@
+import React from 'react'
+import Header from './components/Header'
+import { Route, Routes } from 'react-router'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Events from './Pages/Events'
+import Contact from './Pages/Contact'
+
+export default function App() {
+  return (
+    <div>
+        <Header/>
+
+        <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/events' element={<Events/>} />
+            <Route path='/contact' element={<Contact/>} />
+        </Routes>
+    </div>
+  )
+}
