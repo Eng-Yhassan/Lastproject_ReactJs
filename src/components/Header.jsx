@@ -34,7 +34,7 @@ export default function Header() {
 
             {/* Mobile View */}
             <div className={`${isOpen ? "block" : "hidden"} sm:hidden`}>
-                <ul className='flex flex-col bg-blue-400 justify-center items-center py-4 absolute w-full text-white gap-10 text-2xl font-semibold'>
+                <ul className='bg-gradient-to-t from-indigo-900 via-purple-800 to-indigo-900 flex flex-col justify-center items-center py-4 absolute w-full text-white gap-10 text-2xl font-semibold'>
                     <NavLink to="/" onClick={() => setIsOpen(false)}><li> Home </li></NavLink>
                     <NavLink to="/about" onClick={() => setIsOpen(false)}><li> About </li></NavLink>
                     <NavLink to="/events" onClick={() => setIsOpen(false)}><li> Events </li></NavLink>

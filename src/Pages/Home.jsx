@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      <div className='bg-gradient-to-r from-[#2E3192] to-[#662D91] text-white w-screen h-[450px]'>
+      <div className='bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 text-white w-screen h-[450px]'>
         <h1 className='text-6xl text-center pt-14 font-bold text-white'>Creating unforgatable <span className='text-orange-400'>Events</span></h1>
         <p className='w-[60%] text-center ml-[20%] text-white pt-10 text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem delectus aspernatur reiciendis. Autem, blanditiis eos ab praesentium vero obcaecati nam ipsa, cum minima dicta debitis.</p>
         <div className='flex gap-4 mt-20'>
