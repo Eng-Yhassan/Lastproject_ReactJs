@@ -11,7 +11,7 @@ import imag10 from "../images/innovation.jpg"
 import imag11 from "../images/musical festival.jpg"
 import imag12 from "../images/data analysis.jpg"
 
-const Data= [
+const Database= [
     {
         id:1,
         image: imag1,
@@ -123,4 +123,4 @@ const Data= [
 ]
 
 
-export default Data
+export default Database
