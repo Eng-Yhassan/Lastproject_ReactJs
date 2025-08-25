@@ -3,6 +3,7 @@ import image from "../images/aboutProImg.jpg"
 import img1 from "../images/hakim.jpg"
 import img2 from "../images/yaya.jpg"
 import img3 from "../images/yonka.jpg"
+import ICONS from '../cart_icon'
 
 export default function Home() {
   return (
@@ -24,11 +25,14 @@ export default function Home() {
       <div className='mt-20 mb-20'>
         <h1 className='sm:text-5xl text-3xl text-center font-bold'>Welcome To Event Pro</h1>
         <p className='w-[78%] text-center sm:ml-[14%] ml-[10%] pt-7 sm:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed minima est dignissimos. Itaque minima perspiciatis, iusto eligendi ullam inventore in, laboriosam autem sint dolre minima Itaque minima perspiciatis reiciendis nobis necessitatibus nesciunt, eum impedit!</p>
-        <div>
-          
-          {/* Yoonis */}
+      
+      <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto py-16">
+      <ICONS icon="fa-solid fa-calendar-days" titles="Expert Planning" />
+      <ICONS icon="fa-solid fa-users" titles="Professional Team" />
+      <ICONS icon="fa-solid fa-trophy" titles="Award-Winning" />
+      </div>
 
-        </div>
+        
       </div>
 
 
