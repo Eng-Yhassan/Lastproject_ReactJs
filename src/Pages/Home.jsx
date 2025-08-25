@@ -29,17 +29,17 @@ export default function Home() {
       </div>
 
 
-      <div className='sm:flex px-10 gap-8 sm:space-y-0 space-y-10 bg-slate-100 items-center'>
-        <div className='pt-12 w-screen h-[510px]'>
-          <h2 className="sm:text-5xl text-3xl font-bold mb-4 sm:text-start text-center sm:-ml-0 -ml-10">About EventPro</h2>
-          <p className="text-gray-600 sm:mb-6 sm:w-0 w-[90%]">With over a decade of experience in the events industry, EventPro has established itself asa partner for organizations seeking to create impactful and memorable experiences.</p>
+      <div className='sm:flex px-10 gap-8 sm:space-y-0 space-y-10 bg-slate-100 items-center w-screen sm:h-[510px] h-[540px'>
+        <div className='pt-12 '>
+          <h2 className="sm:text-5xl text-3xl font-bold mb-4 sm:text-start text-center">About EventPro</h2>
+          <p className="text-gray-600 sm:mb-6">With over a decade of experience in the events industry, EventPro has established itself asa partner for organizations seeking to create impactful and memorable experiences.</p>
 
           <ul className="space-y-4">
             <li className="flex items-start">
               <i className="fa-solid fa-check text-green-500 mt-1 text-lg"></i>
               <div className="ml-3">
                 <h3 className="font-semibold">Comprehensive Services</h3>
-                <p className="text-gray-600 sm:w-0 w-[90%]">From concept to execution, we handle every aspect of your event.</p>
+                <p className="text-gray-600 ]">From concept to execution, we handle every aspect of your event.</p>
               </div>
             </li>
 
@@ -47,7 +47,7 @@ export default function Home() {
               <i className="fa-solid fa-check text-green-500 mt-1 text-lg"></i>
               <div className="ml-3">
                 <h3 className="font-semibold">Innovative Solutions</h3>
-                <p className="text-gray-600 sm:w-0 w-[90%]">Creative approaches that make your events stand out and engage audiences.</p>
+                <p className="text-gray-600">Creative approaches that make your events stand out and engage audiences.</p>
               </div>
             </li>
 
@@ -55,7 +55,7 @@ export default function Home() {
               <i className="fa-solid fa-check text-green-500 mt-1 text-lg"></i>
               <div className="ml-3">
                 <h3 className="font-semibold">Proven Track Record</h3>
-                <p className="text-gray-600 sm:w-0 w-[90%]">Successfully delivered over 500 events with 98% client satisfaction rate.</p>
+                <p className="text-gray-600 ">Successfully delivered over 500 events with 98% client satisfaction rate.</p>
               </div>
             </li>
           </ul>
@@ -74,7 +74,7 @@ export default function Home() {
       {/* Meet Team  */}
 
 
-      <div className="mt-20 mb-20">
+      <div className="sm:mt-20 mt-20 mb-20">
         {/* Section Title */}
         <h1 className="sm:text-5xl text-3xl text-center font-bold">Meet Our Team</h1>
         <p className="w-[78%] text-center sm:ml-[14%] ml-[10%] pt-7 sm:text-xl text-gray-600">
