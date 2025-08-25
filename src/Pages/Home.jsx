@@ -25,6 +25,9 @@ export default function Home() {
         <h1 className='sm:text-5xl text-3xl text-center font-bold'>Welcome To Event Pro</h1>
         <p className='w-[78%] text-center sm:ml-[14%] ml-[10%] pt-7 sm:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed minima est dignissimos. Itaque minima perspiciatis, iusto eligendi ullam inventore in, laboriosam autem sint dolre minima Itaque minima perspiciatis reiciendis nobis necessitatibus nesciunt, eum impedit!</p>
         <div>
+          
+          {/* Yoonis */}
+
         </div>
       </div>
 
@@ -118,8 +121,20 @@ export default function Home() {
         <h1 className='sm:text-5xl text-3xl text-center font-bold'>Featured Events</h1>
         <p className='w-[78%] text-center sm:ml-[14%] ml-[10%] pt-7 sm:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed minima est dignissimos. Itaque minima </p>
         <div>
+
+          {/* Yoonis */}
+
         </div>
       </div>
+        <div className='bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 text-white w-screen h-[400px]'>
+        <h1 className='sm:text-5xl text-3xl text-center pt-14 font-bold text-white'>Ready to create something Amazing ?</h1>
+        <p className='sm:w-[60%] w-[80%] text-center sm:ml-[20%] ml-[8%] text-white pt-10 sm:text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem delectus aspernatur reiciendis. Autem, blanditiis eos ab praesentium vero obcaecati nam ipsa, cum minima dicta debitis.</p>
+        <div className='flex gap-4 mt-10'>
+          <button className='bg-orange-600 font-semibold p-2 py-3 sm:ml-[38%] ml-[8%] px-6 rounded-lg'>Star your Project</button>
+          <button className='text-white font-semibold p-2 py-3 border-2 border-white px-6 rounded-lg'>Browse Event</button>
+        </div>
+      </div>
+
 
 
     </div>
