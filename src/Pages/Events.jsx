@@ -10,8 +10,7 @@ function Events() {
     return CategoryData
   })
 
-  const baseBtn =
-    "px-7 py-2 rounded-sm ml-3 font-medium transition-all duration-300"
+  const baseBtn = "px-5 md:px-7 py-2 rounded-sm ml-2 md:ml-3 font-medium transition-all duration-300";
 
   // function si uu style u go'aamiyo
   const getBtnClass = (btnCategory) => {
@@ -38,12 +37,12 @@ function Events() {
 
         </div>
       </section>
-      <div className='flex justify-between px-7 py-10'>
-        <p>Filter by Category:</p>
-        <div>
-          <button onClick={() => setCategory("")} className={` ${baseBtn} ${getBtnClass("")}`}>All</button>
-          <button onClick={() => setCategory("Events")}  className={` ${baseBtn} ${getBtnClass("Events")}`}>Events</button>
-          <button onClick={() => setCategory("Seminar")} className={` ${baseBtn} ${getBtnClass("Seminar")}`}>Seminar</button>
+      <div className="flex flex-col md:flex-row md:justify-between items-start md:items-center px-7 py-10 gap-4 md:gap-0">
+        <p className="font-medium text-gray-700 mb-2 md:mb-0">Filter by Category:</p>
+        <div className="flex flex-wrap gap-2 md:gap-3">
+          <button onClick={() => setCategory("")} className={`${baseBtn} ${getBtnClass("")}`}>All</button>
+          <button onClick={() => setCategory("Events")} className={`${baseBtn} ${getBtnClass("Events")}`}>Events</button>
+          <button onClick={() => setCategory("Seminar")} className={`${baseBtn} ${getBtnClass("Seminar")}`}>Seminar</button>
         </div>
       </div>
       {/* show-events */}
