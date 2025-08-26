@@ -7,7 +7,7 @@ function Workshop() {
 
   if (!event)
     return (
-      <h2 className="text-center mt-10 text-red-500">Workshop not found!</h2>
+      <h2 className="text-center mt-10 text-red-500 text-3xl font-bold">Workshop not found!</h2>
     );
 
   return (
