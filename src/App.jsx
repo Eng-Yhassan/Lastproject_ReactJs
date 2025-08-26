@@ -7,7 +7,6 @@ import Events from './Pages/Events'
 import Contact from './Pages/Contact'
 import Footer from './components/Footer'
 import Workshop from './components/one-time-use/Workshop'
-import Leader from './components/one-time-use/Leader'
 
 export default function App() {
   return (
@@ -16,9 +15,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/workshop/:id" element={<Workshop />} />
-          {/* <Route path="/leader/:id" element={<Leader />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/view-project" element={<Events />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
 

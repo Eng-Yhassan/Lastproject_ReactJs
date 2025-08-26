@@ -6,6 +6,7 @@ import img3 from "../images/Yoonka.jpg"
 import ICONS from '../cart_icon'
 import Database from '../components/Data'
 import Card from '../components/one-time-use/Card'
+import { Link } from 'react-router'
 
 export default function Home() {
   return (
@@ -138,7 +139,9 @@ export default function Home() {
                 <Card  events={items} />
               </div>
             })
+            
           }
+          <Link to="view-project"><button className='bg-[linear-gradient(to_right,blue,darkblue)] text-white px-7 py-3 rounded-2xl font-medium'>View-Project</button></Link>
 
         </div>
       </div>
