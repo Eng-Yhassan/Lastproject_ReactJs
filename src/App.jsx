@@ -7,7 +7,6 @@ import Events from './Pages/Events'
 import Contact from './Pages/Contact'
 import Footer from './components/Footer'
 import Workshop from './components/one-time-use/Workshop'
-
 export default function App() {
   return (
     <div>
