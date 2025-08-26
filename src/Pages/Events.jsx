@@ -9,6 +9,18 @@ function Events() {
     const CategoryData = category ? data.category === category : true
     return CategoryData
   })
+
+  const baseBtn =
+    "px-7 py-2 rounded-sm ml-3 font-medium transition-all duration-300"
+
+  // function si uu style u go'aamiyo
+  const getBtnClass = (btnCategory) => {
+    return category === btnCategory
+      ? "bg-blue-500 text-white" // active button (blue)
+      : "bg-orange-500 text-white " // others (orange)
+  }
+
+
   return (
     <div>
       {/* Hero Section */}
@@ -29,9 +41,9 @@ function Events() {
       <div className='flex justify-between px-7 py-10'>
         <p>Filter by Category:</p>
         <div>
-          <button onClick={() => setCategory("")} className='bg-blue-200 text-blue-800 px-7 py-2 rounded-sm ml-3'>All</button>
-          <button onClick={() => setCategory("Events")} className='bg-blue-200 text-blue-800 px-7 py-2 rounded-sm ml-3'>Events</button>
-          <button onClick={() => setCategory("Seminar")} className='bg-blue-200 text-blue-800 px-7 py-2 rounded-sm ml-3'>Seminar</button>
+          <button onClick={() => setCategory("")} className={` ${baseBtn} ${getBtnClass("")}`}>All</button>
+          <button onClick={() => setCategory("Events")}  className={` ${baseBtn} ${getBtnClass("Events")}`}>Events</button>
+          <button onClick={() => setCategory("Seminar")} className={` ${baseBtn} ${getBtnClass("Seminar")}`}>Seminar</button>
         </div>
       </div>
       {/* show-events */}
