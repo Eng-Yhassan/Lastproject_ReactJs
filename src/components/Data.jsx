@@ -71,7 +71,7 @@ const Database= [
         image: imag7,
         name: "Product Launch Event",
         title: "Exclusive unvelling of innovative products with live demonstrations and networking ..",
-        category: "Event",
+        category: "Events",
         date: "November 13, 2025",
         location: "Simad-Ilab"
     },
@@ -89,7 +89,7 @@ const Database= [
         image: imag9,
         name: "Wedding Expo 2025",
         title: "Discover the latest wedding trends, vendors, and planning services..",
-        category: "Event",
+        category: "Events",
         date: "August 25, 2025",
         location: "Armaan Hall"
     },
@@ -107,7 +107,7 @@ const Database= [
         image: imag11,
         name: "Music Festival 2025",
         title: "Three days of live music featuring local and international artists..",
-        category: "Event",
+        category: "Events",
         date: "May 04, 2025",
         location: "Rashka-Prodution"
     },
@@ -116,7 +116,7 @@ const Database= [
         image: imag12,
         name: "Data Science Workshop",
         title: "Hands-on training in data analysis, machine learning, and visualization ..",
-        category: "Event",
+        category: "Seminar",
         date: "January 25, 2025",
         location: "University Campus"
     },
