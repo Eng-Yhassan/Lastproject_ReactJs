@@ -1,6 +1,8 @@
 import { Link } from "react-router";
 
 function Card({ events }) {
+  const path = `/workshop/${events.id}`;
+
   return (
     <div className="max-w-sm bg-white rounded-t-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 relative">
       <img
@@ -18,7 +20,7 @@ function Card({ events }) {
           <p>📍 {events.location}</p>
         </div>
 
-        <Link to={`/view/${events.id}`}><button className="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-xl hover:bg-blue-700 transition">
+        <Link to={path}><button className="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-xl hover:bg-blue-700 transition">
           View Project
         </button></Link>
 

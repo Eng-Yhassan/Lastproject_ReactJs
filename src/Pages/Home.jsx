@@ -135,7 +135,7 @@ export default function Home() {
           {
             Database.slice(0,3).map((items) => {
               return <div>
-                <Card events={items} />
+                <Card  events={items} />
               </div>
             })
           }

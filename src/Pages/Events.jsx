@@ -51,7 +51,7 @@ function Events() {
         {
           FilterDatabase.map((items) => {
             return <div>
-              <Card events={items}/>
+              <Card  events={items}/>
             </div>
           })
         }
