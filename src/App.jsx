@@ -6,6 +6,7 @@ import About from './Pages/About'
 import Events from './Pages/Events'
 import Contact from './Pages/Contact'
 import Footer from './components/Footer'
+import Workshop from './components/one-time-use/Workshop'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
 
         <Routes>
             <Route path='/' element={<Home/>} />
+            <Route path='/view' element={<Workshop/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/events' element={<Events/>} />
             <Route path='/contact' element={<Contact/>} />

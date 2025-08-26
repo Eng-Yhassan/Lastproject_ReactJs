@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 function Card({ events }) {
   return (
     <div className="max-w-sm bg-white rounded-t-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 relative">
@@ -16,9 +18,9 @@ function Card({ events }) {
           <p>📍 {events.location}</p>
         </div>
 
-        <button className="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-xl hover:bg-blue-700 transition">
+        <Link to="/view"><button className="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-xl hover:bg-blue-700 transition">
           View Project
-        </button>
+        </button></Link>
 
         <div className="mt-3">
           <span className="inline-block bg-[#EA580C] text-white text-xs px-3 py-1 rounded-full absolute top-3 left-2">
