@@ -87,8 +87,10 @@ export default function Home() {
         {/* Section Title */}
         <h1 className="sm:text-5xl text-3xl text-center font-bold">Meet Our Team</h1>
         <p className="w-[78%] text-center sm:ml-[14%] ml-[10%] pt-7 sm:text-xl text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed minima est dignissimos.
-          Itaque minima perspiciatis, iusto eligendi ullam inventis nobis necessitatibus nesciunt, eum impedit!
+          We are a passionate team of three developers dedicated to creating modern and user-friendly
+          websites. Our latest project focuses on building an innovative events platform that connects
+          people and brings ideas to life. With creativity, teamwork, and technology, we strive to
+          deliver solutions that truly make an impact.
         </p>
 
         {/* Team Grid */}
@@ -101,7 +103,8 @@ export default function Home() {
             <h2 className="mt-4 text-xl font-semibold">Abdihakim A Daud</h2>
             <p className="text-indigo-600 font-medium">Director</p>
             <p className="mt-2 text-gray-600 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste obcaecati distinctio ex!
+             Visionary leader who guides our projects with strategy and innovation,
+             ensuring we always move forward with clear direction.
             </p>
           </div>
 
@@ -110,7 +113,8 @@ export default function Home() {
             <img src={img2} alt="Ayaan" className="rounded-2xl w-full h-64 object-cover" />
             <h2 className="mt-4 text-xl font-semibold">Yahye Hassan</h2>
             <p className="text-indigo-600 font-medium">Manager</p>
-            <p className="mt-2 text-gray-600 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste obcaecati distinctio ex!</p>
+            <p className="mt-2 text-gray-600 text-sm">Skilled in planning and coordination, making sure our
+              ideas are transformed into functional, high-quality websites.</p>
           </div>
 
           {/* Team Member 3 Yoonis */}
@@ -118,7 +122,8 @@ export default function Home() {
             <img src={img3} alt="Mahad" className="rounded-2xl w-full h-64 object-cover" />
             <h2 className="mt-4 text-xl font-semibold">Yoonis Gallad</h2>
             <p className="text-indigo-600 font-medium">Event Planner</p>
-            <p className="mt-2 text-gray-600 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste obcaecati distinctio ex!</p>
+            <p className="mt-2 text-gray-600 text-sm">Creative planner with a sharp eye for detail,
+              bringing unique ideas to shape our event-focused platforms.</p>
           </div>
 
         </div>
