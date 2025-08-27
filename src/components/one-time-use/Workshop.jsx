@@ -64,7 +64,7 @@ function Workshop() {
       {/* Description */}
       <div className="mb-6">
         <h3 className="text-3xl font-semibold mb-2 text-blue-800">About This Event</h3>
-        <p className="text-gray-700 ">{event.description}</p>
+        <p className="text-gray-700 text-xl">{event.description}</p>
       </div>
 
       {/* Bottom Info - Block Style with Outline */}

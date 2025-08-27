@@ -141,8 +141,10 @@ export default function Home() {
             })
             
           }
-          <Link to="view-project"><button className='bg-[linear-gradient(to_right,blue,darkblue)] text-white px-7 py-3 rounded-2xl font-medium'>View-Project</button></Link>
 
+        </div>
+        <div>
+            <Link to="view-project"><button className='bg-[linear-gradient(to_right,blue,darkblue)] text-white px-7 py-3 rounded-2xl font-medium ml-[45%] mt-7'>View-Events</button></Link>
         </div>
       </div>
         

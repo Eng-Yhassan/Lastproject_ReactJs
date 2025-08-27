@@ -21,12 +21,16 @@ const Database= [
         date: "March 15, 2025",
         location: "Wadajir-Hotel-Jaziira",
         time: "03:00pm",
-        description: `Join us for a powerful workshop with Abdimaalik Abdirahmaan – a Tech Lead at Oslo Municipality, Founder & CEO of Digna AS, and Chair of the Somali Norwegian Chamber of Commerce – as he shares the secret to attracting job opportunities on LinkedIn without actively seeking them! 💼✨
-With over 10 years of experience in tech leadership, digital empowerment, and youth inclusion, Abdimaalik will dive into practical strategies for:
-✅ Building a magnetic LinkedIn profile
-✅ Attracting recruiters and opportunities organically
-✅ Showcasing your skills without chasing jobs
-✅ Leveraging your story for professional growth`
+        description: `Join us for a powerful workshop with Abdimaalik Abdirahmaan – Tech Lead at Oslo Municipality, Founder & CEO of Digna AS, and Chair of the Somali Norwegian Chamber of Commerce. 
+He will uncover strategies on how to attract global opportunities without actively applying. 
+With over a decade of leadership in digital transformation, Abdimaalik shares his proven methods. 
+You will learn to optimize your LinkedIn profile for maximum reach. 
+Understand how recruiters discover hidden talent and how to become visible. 
+Discover ways to showcase your achievements through storytelling. 
+Gain strategies to build meaningful professional connections. 
+Learn how to turn social media presence into a professional advantage. 
+Explore techniques to stay relevant in an ever-changing job market. 
+This event is your chance to unlock the doors of limitless career growth.`
     },
     {
         id:2,
@@ -37,7 +41,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "February 15, 2025",
         location: "Garowe-Putland",
         time: "04:00pm",
-        description: `Enhance your leadership skills, learn to manage teams effectively, and discover strategies for personal and professional growth. Engage in interactive exercises with top industry leaders.`
+        description: `Leadership is the foundation of success in every industry. 
+This seminar is designed to help you master essential skills in decision-making and team management. 
+Participants will engage in interactive group sessions with experts. 
+Learn how to communicate with impact and inspire your team. 
+Gain knowledge of modern leadership styles in a changing world. 
+Understand conflict resolution and building trust. 
+Discover the role of emotional intelligence in leading people. 
+Explore practical case studies from business leaders. 
+Build confidence in your ability to take charge of challenges. 
+By the end, you will leave empowered to lead with vision and confidence.`
     },
     {
         id:3,
@@ -48,7 +61,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "July 20, 2025",
         location: "Hodan-Ex-digfeer-hospital",
         time: "18:00pm",
-        description: `Join an elegant Charity Gala supporting local communities. Enjoy an evening of fine dining, entertainment, and networking while contributing to meaningful causes.`
+        description: `The Annual Charity Gala is a night of elegance and generosity. 
+Guests will enjoy live performances, inspiring speeches, and fine dining. 
+All proceeds will directly support local community development projects. 
+Network with philanthropists, business leaders, and community heroes. 
+Witness moving stories of lives being changed through charity. 
+Experience an evening that blends luxury with compassion. 
+Celebrate the achievements of organizations making a difference. 
+Be inspired by the power of collective giving and support. 
+Enjoy unforgettable memories with friends and colleagues. 
+This gala is not just an event, it is a movement for social good.`
     },
     {
         id:4,
@@ -59,7 +81,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "June 15, 2025",
         location: "km4",
         time: "06:00pm",
-        description: `Learn hands-on digital marketing strategies including SEO, social media campaigns, and analytics to grow your business effectively.`
+        description: `The Digital Marketing Workshop will take you from basics to advanced strategies. 
+Learn how to build powerful campaigns that drive results. 
+Discover the secrets of SEO, paid ads, and social media growth. 
+Hands-on exercises will help you implement real strategies instantly. 
+Understand customer behavior through analytics and insights. 
+Gain tips on building content that converts followers into buyers. 
+Explore the latest AI tools shaping marketing today. 
+Network with professionals and share innovative ideas. 
+Walk away with a digital plan tailored for your business. 
+By attending, you will be fully equipped to grow your brand online.`
     },
     {
         id:5,
@@ -70,7 +101,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "April 23, 2025",
         location: "Howl-Wadaag",
         time: "19:00pm",
-        description: `Boost team collaboration and morale through engaging outdoor activities, workshops, and networking opportunities designed for corporate growth.`
+        description: `This retreat is designed to strengthen team spirit and collaboration. 
+Participants will engage in outdoor adventure challenges. 
+Workshops will focus on problem-solving and creativity. 
+Teams will learn effective communication and trust-building. 
+Fun games are blended with leadership development exercises. 
+Enjoy a balance of relaxation, networking, and growth. 
+Get inspired by motivational sessions from experts. 
+Experience activities that boost innovation and resilience. 
+Strengthen workplace relationships in an informal setting. 
+At the end, your team will return united and motivated.`
     },
     {
         id:6,
@@ -81,7 +121,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "October 03, 2025",
         location: "Wasaarada-Maaliyada",
         time: "08:00Am",
-        description: `Gain insights into smart investment, budgeting, and financial planning strategies from experienced advisors to secure your financial future.`
+        description: `This seminar will give you the keys to financial freedom. 
+Learn how to budget wisely and manage resources effectively. 
+Understand different types of investments and their risks. 
+Gain insider tips from certified financial advisors. 
+Plan your retirement and secure your family’s future. 
+Discover strategies to reduce debt and increase savings. 
+Understand how to build long-term wealth. 
+Get introduced to digital finance and modern tools. 
+Avoid common mistakes that keep people financially trapped. 
+With the right knowledge, financial success becomes possible.`
     },
     {
         id:7,
@@ -92,7 +141,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "November 13, 2025",
         location: "Simad-Ilab",
         time: "03:00pm",
-        description: `Experience the unveiling of cutting-edge products with live demos, networking with industry leaders, and opportunities to connect with innovators.`
+        description: `Be the first to witness groundbreaking product innovations. 
+This launch event will showcase live demos of cutting-edge solutions. 
+Network with industry experts and fellow innovators. 
+Gain insights into the journey behind the product creation. 
+Discover how these innovations will shape industries. 
+Enjoy an exclusive experience of technology and creativity. 
+Hear directly from developers and product managers. 
+Explore opportunities for partnerships and collaboration. 
+Celebrate a milestone in innovation with key stakeholders. 
+Don’t miss your chance to be part of the future unveiling.`
     },
     {
         id:8,
@@ -103,7 +161,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "December 7, 2025",
         location: "Java Coffee",
         time: "04:00pm",
-        description: `Learn practical techniques to speak confidently in public, overcome stage fear, and deliver compelling presentations with clarity and impact.`
+        description: `Speaking in public is a skill that opens doors to opportunities. 
+This seminar teaches you how to overcome stage fright. 
+Learn breathing and voice control techniques to sound confident. 
+Practice real-life presentation exercises with feedback. 
+Discover how to structure powerful speeches. 
+Gain confidence to speak in front of small and large audiences. 
+Learn storytelling techniques to engage your listeners. 
+Understand how body language impacts communication. 
+Receive guidance from experienced public speakers. 
+By the end, you will be ready to inspire with your words.`
     },
     {
         id:9,
@@ -114,7 +181,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "August 25, 2025",
         location: "Armaan Hall",
         time: "10:00Am",
-        description: `Explore the newest trends in weddings, meet top vendors, and find inspiration for your special day in this comprehensive wedding expo.`
+        description: `The Wedding Expo is the ultimate destination for couples planning their big day. 
+Meet top wedding planners and vendors under one roof. 
+Discover stunning décor, dresses, and photography styles. 
+Enjoy live fashion shows and sample delicious wedding menus. 
+Get tips from experts on budgeting and organizing your event. 
+Explore creative ideas for unique wedding experiences. 
+Connect with designers and service providers directly. 
+Gain inspiration from international wedding trends. 
+Take advantage of exclusive discounts and offers. 
+This expo will make your dream wedding a reality.`
     },
     {
         id:10,
@@ -125,7 +201,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "March 1, 2025",
         location: "Innovation Center",
         time: "02:00pm",
-        description: `Learn how to launch your startup from scratch, validate ideas, attract investors, and build a scalable business model with expert guidance.`
+        description: `This bootcamp empowers aspiring entrepreneurs with the right tools. 
+Learn how to turn an idea into a profitable business. 
+Discover techniques to validate your product in the market. 
+Gain knowledge on pitching to investors with confidence. 
+Build a scalable business model for long-term success. 
+Network with mentors and like-minded entrepreneurs. 
+Get access to resources that accelerate startup growth. 
+Work on group projects and present your solutions. 
+Receive mentorship from successful business founders. 
+Walk away ready to launch your own startup journey.`
     },
     {
         id:11,
@@ -136,7 +221,16 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "May 04, 2025",
         location: "Rashka-Production",
         time: "05:00pm",
-        description: `Enjoy three days of live music, featuring top local and international artists, food, and entertainment for an unforgettable experience.`
+        description: `Experience three unforgettable days of live music and entertainment. 
+Dance to performances from local and global artists. 
+Discover new talent and enjoy diverse musical genres. 
+Food stalls and cultural exhibitions will be available. 
+Connect with fellow music lovers in an electric atmosphere. 
+Each night closes with spectacular live shows. 
+Enjoy workshops with professional musicians. 
+Explore cultural art displays alongside the music. 
+Celebrate diversity and creativity in one festival. 
+This festival promises memories that last a lifetime.`
     },
     {
         id:12,
@@ -147,8 +241,19 @@ With over 10 years of experience in tech leadership, digital empowerment, and yo
         date: "January 25, 2025",
         location: "University Campus",
         time: "09:00Am",
-        description: `Participate in a hands-on workshop learning data analysis, machine learning, and visualization techniques to apply directly in real-world projects.`
+        description: `The Data Science Workshop is designed for future innovators. 
+Learn the foundations of data collection and cleaning. 
+Apply machine learning algorithms to real-world datasets. 
+Master visualization techniques to communicate insights. 
+Work on practical projects guided by industry experts. 
+Gain exposure to tools like Python, R, and Tableau. 
+Discover the role of AI in business and research. 
+Collaborate with peers in group coding sessions. 
+Prepare for careers in data-driven industries. 
+Leave equipped with skills for the future of technology.`
     },
 ]
+
+
 
 export default Database
