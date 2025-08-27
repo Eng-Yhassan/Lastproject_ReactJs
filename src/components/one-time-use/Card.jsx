@@ -18,7 +18,7 @@ function Card({ events }) {
         </div>
 
         <Link to={`/workshop/${events.id}`}><button className="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-xl hover:bg-blue-700 transition">
-          View Project
+          EventInfo
         </button></Link>
 
         <div className="mt-3">
