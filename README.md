@@ -1,12 +1,63 @@
-# React + Vite
+# Event Pro 🎉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Event Pro is a modern and responsive event management website designed to showcase services, highlight features, and attract clients for professional event planning. The website provides a clean user interface and engaging sections to make every event unforgettable.
 
-Currently, two official plugins are available:
+# 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive design (works on desktop, tablet, and mobile)
 
-## Expanding the ESLint configuration
+Hero section with call-to-action buttons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Services showcase (Expert Planning, Professional Team, Award-Winning)
+
+About section with professional introduction
+
+Modern UI with gradient header
+
+# 🛠️ Technologies Used
+
+HTML5
+
+CSS3
+
+JavaScript (if used in future)
+
+(React.js  / TailwindCSS )
+
+# 📂 Project Structure
+EventPro/
+│-- index.html
+│-- style.css
+│-- src
+|-- components
+|-- pages
+
+# 💻 Getting Started
+
+Clone the repository:
+
+git clone https://github.com/Eng-Yhassan/Lastproject_ReactJs
+
+
+Open the project folder and run:
+
+index.html
+
+
+View the website in your browser.
+
+📸 Preview
+
+(Add screenshot of your design here)
+![alt text](/src//images/readmeImages/image.png)
+![alt text](/src//images/readmeImages/image-1.png)
+![alt text](/src//images/readmeImages/image-2.png)
+📩 Contact
+
+For inquiries or collaborations, feel free to reach out:
+
+Name: Yahye Hassan
+
+Email: muscabhassan81@gmail.com
+
+Phone: +252 61 476 5817
