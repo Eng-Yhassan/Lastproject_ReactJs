@@ -15,10 +15,18 @@ export default function Home() {
 
       <div className='bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 text-white w-screen h-[450px]'>
         <h1 className='sm:text-6xl text-3xl text-center pt-14 font-bold text-white'>Creating unforgatable <span className='text-orange-600'>Events</span></h1>
-        <p className='sm:w-[60%] w-[80%] text-center sm:ml-[20%] ml-[8%] text-white pt-10 sm:text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem delectus aspernatur reiciendis. Autem, blanditiis eos ab praesentium vero obcaecati nam ipsa, cum minima dicta debitis.</p>
+        <p className='sm:w-[60%] w-[80%] text-center sm:ml-[20%] ml-[8%] text-white pt-10 sm:text-xl'>
+          We bring your vision to life by crafting events that inspire, connect, and leave lasting memories.</p>
         <div className='flex gap-4 mt-10'>
-          <button className='bg-orange-600 font-semibold p-2 py-3 sm:ml-[38%] ml-[8%] px-6 rounded-lg'>Explore Events</button>
-          <button className='text-white font-semibold p-2 py-3 border-2 border-white px-6 rounded-lg'>Get in Touch</button>
+          <Link className='bg-orange-600 font-semibold p-2 py-3 sm:ml-[38%] ml-[8%] px-6 rounded-lg' to="/events">
+            Explore Events
+          </Link>
+          <Link
+            to="/contact"
+            className="border border-white hover:bg-white hover:text-purple-800 px-8 py-3 rounded-lg font-semibold shadow-lg transition"
+          >
+            Get in Touch
+          </Link>
         </div>
       </div>
 
@@ -27,15 +35,18 @@ export default function Home() {
 
       <div className='mt-20 mb-20'>
         <h1 className='sm:text-5xl text-3xl text-center font-bold'>Welcome To Event Pro</h1>
-        <p className='w-[78%] text-center sm:ml-[14%] ml-[10%] pt-7 sm:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed minima est dignissimos. Itaque minima perspiciatis, iusto eligendi ullam inventore in, laboriosam autem sint dolre minima Itaque minima perspiciatis reiciendis nobis necessitatibus nesciunt, eum impedit!</p>
-      
-      <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto py-16">
-      <ICONS icon="fa-solid fa-calendar-days" titles="Expert Planning" />
-      <ICONS icon="fa-solid fa-users" titles="Professional Team" />
-      <ICONS icon="fa-solid fa-trophy" titles="Award-Winning" />
-      </div>
+        <p className='w-[78%] text-center sm:ml-[14%] ml-[10%] pt-7 sm:text-xl'>
+          At Event Pro, we specialize in creating extraordinary experiences. From concept to execution, 
+          our mission is to deliver seamless events that exceed expectations. Whether it’s a corporate 
+          gathering, wedding, or special celebration, we make every moment unforgettable.</p>
 
-        
+        <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto py-16">
+          <ICONS icon="fa-solid fa-calendar-days" titles="Expert Planning" desc="Our experienced planners ensure every detail is carefully designed and executed to perfection." />
+          <ICONS icon="fa-solid fa-users" titles="Professional Team" desc="A dedicated team of professionals working closely with you to bring your ideas to life." />
+          <ICONS icon="fa-solid fa-trophy" titles="Award-Winning" desc="Recognized for excellence, our services have earned awards and trust from countless happy clients." />
+        </div>
+
+
       </div>
 
 
@@ -104,8 +115,8 @@ export default function Home() {
             <h2 className="mt-4 text-xl font-semibold">Abdihakim A Daud</h2>
             <p className="text-indigo-600 font-medium">Director</p>
             <p className="mt-2 text-gray-600 text-sm">
-             Visionary leader who guides our projects with strategy and innovation,
-             ensuring we always move forward with clear direction.
+              Visionary leader who guides our projects with strategy and innovation,
+              ensuring we always move forward with clear direction.
             </p>
           </div>
 
@@ -134,20 +145,20 @@ export default function Home() {
         <p className='w-[78%] text-center sm:ml-[14%] ml-[10%] pt-7 sm:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed minima est dignissimos. Itaque minima </p>
         <div className='flex flex-wrap gap-10 justify-center mt-16'>
           {
-            Database.slice(0,3).map((items) => {
+            Database.slice(0, 3).map((items) => {
               return <div>
-                <Card  events={items} />
+                <Card events={items} />
               </div>
             })
-            
+
           }
 
         </div>
         <div>
-            <Link to="view-project"><button className='bg-[linear-gradient(to_right,blue,darkblue)] text-white px-7 py-3 rounded-2xl font-medium ml-[45%] mt-7'>View-Events</button></Link>
+          <Link to="view-project"><button className='bg-[linear-gradient(to_right,blue,darkblue)] text-white px-7 py-3 rounded-2xl font-medium ml-[45%] mt-7'>View-Events</button></Link>
         </div>
       </div>
-        
+
 
 
 
