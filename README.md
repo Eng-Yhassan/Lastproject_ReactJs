@@ -48,7 +48,7 @@ View the website in your browser.
 
 📸 Preview
 
-(Add screenshot of your design here)
+
 ![alt text](/src//images/readmeImages/image.png)
 ![alt text](/src//images/readmeImages/image-1.png)
 ![alt text](/src//images/readmeImages/image-2.png)
